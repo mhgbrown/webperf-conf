@@ -15,7 +15,9 @@
 	<FilesMatch "\.(ico|xml|jpe?g|png|gif|js|css|swf)$">
 		ExpiresActive On
 		ExpiresDefault "access plus 10 years"
-	</FilesMatch>	
+	</FilesMatch>
+
+	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript	
 
 	ErrorLog ${APACHE_LOG_DIR}/error.log
 
