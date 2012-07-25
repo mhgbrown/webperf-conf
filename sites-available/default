@@ -17,7 +17,7 @@
 		ExpiresDefault "access plus 10 years"
 	</FilesMatch>
 
-	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript	
+	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript application/xml application/x-shockwave-flash
 
 	ErrorLog ${APACHE_LOG_DIR}/error.log
 
