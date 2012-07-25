@@ -1,5 +1,5 @@
 # Web Performance Lab (Configuration)
-The accompanying configuration for the Web Performance Lab site.
+The accompanying configuration for the [Web Performance Lab site](https://github.com/discom4rt/webperf-site).
 
 ## Rule 3: Add an Expires Header
 
