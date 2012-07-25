@@ -13,4 +13,4 @@ The accompanying configuration for the Web Performance Lab site.
 ### Changes
 * **Gzip certain assets**
 
-	Adjusted the Apache configuration to gzip assets of the follow formats: html, plain text, css, js, xml. Care was taken to not gzip components that were already in a compressed format like jpegs and pngs. Compression may make these files larger than they originally are.
+	Adjusted the Apache configuration to gzip assets of the follow formats: html, plain text, css, js, xml, aspx. Care was taken to not gzip components that were already in a compressed format like jpegs and pngs. Compression may make these files larger than they originally are.  Gzipping reduces the number of bytes that must be transferred to the client, decreasing response time.

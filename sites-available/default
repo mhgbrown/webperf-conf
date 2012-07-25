@@ -19,6 +19,10 @@
 
 	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript application/xml
 
+	<files *.aspx>
+		SetOutputFilter DEFLATE
+	</files>
+
 	ErrorLog ${APACHE_LOG_DIR}/error.log
 
 	# Possible values include: debug, info, notice, warn, error, crit,
