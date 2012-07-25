@@ -12,6 +12,11 @@
 		allow from all
 	</Directory>
 
+	<FilesMatch "\.(ico|xml|jpe?g|png|gif|js|css|swf)$">
+		ExpiresActive On
+		ExpiresDefault "access plus 10 years"
+	</FilesMatch>	
+
 	ErrorLog ${APACHE_LOG_DIR}/error.log
 
 	# Possible values include: debug, info, notice, warn, error, crit,
