@@ -31,5 +31,4 @@
 
 	CustomLog ${APACHE_LOG_DIR}/access.log combined
 
-	RedirectMatch /www\.ubi\.com/$ /www.ubi.com/US/
 </VirtualHost>
